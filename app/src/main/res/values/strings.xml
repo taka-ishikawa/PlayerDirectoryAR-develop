@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">J.LEAGUE</string>
+
+    <string name="tab_clubs">クラブ</string>
+    <string name="tab_table">順位表</string>
+    <string name="tab_stats">成績</string>
+
+    <string name="title_app">J.LEAGUE</string>
+    <string name="title_search">J.SEARCH</string>
+    <string name="title_activity_ar">ArActivity</string>
+    <string name="title_news">J.NEWS</string>
+    <string name="title_activity_player_detail">PlayerDetailActivity</string>
+
+    <string name="item_home">ホーム</string>
+    <string name="item_search">検索</string>
+    <string name="item_ar">AR</string>
+    <string name="item_schedule">日程</string>
+    <string name="item_news">ニュース</string>
+    <!--<string name="title_favorites">お気に入り</string>-->
+
+    <!--clubs-->
+    <!--<string name="item_club_1">北海道コンサドーレ札幌</string>-->
+    <!--<string name="item_club_2">ベガルタ仙台</string>-->
+    <!--<string name="item_club_3">鹿島アントラーズ</string>-->
+    <!--<string name="item_club_4">浦和レッズ</string>-->
+    <!--<string name="item_club_5">FC東京</string>-->
+    <!--<string name="item_club_6">川崎フロンターレ</string>-->
+    <!--<string name="item_club_7">横浜F・マリノス</string>-->
+    <!--<string name="item_club_8">湘南ベルマーレ</string>-->
+    <!--<string name="item_club_9">松本山雅FC</string>-->
+    <!--<string name="item_club_10">清水エスパルス</string>-->
+    <!--<string name="item_club_11">ジュビロ磐田</string>-->
+    <!--<string name="item_club_12">名古屋グランパス</string>-->
+    <!--<string name="item_club_13">ガンバ大阪</string>-->
+    <!--<string name="item_club_14">セレッソ大阪</string>-->
+    <!--<string name="item_club_15">ヴィッセル神戸</string>-->
+    <!--<string name="item_club_16">サンフレッチェ広島</string>-->
+    <!--<string name="item_club_17">サガン鳥栖</string>-->
+    <!--<string name="item_club_18">大分トリニータ</string>-->
+
+    <!--FC東京-->
+    <!--GK-->
+    <string name="item_player_1">児玉　剛</string>
+    <string name="item_player_2">林　彰洋</string>
+    <!--DF-->
+    <string name="item_player_3">室屋　成</string>
+    <string name="item_player_4">森重　真人</string>
+    <string name="item_player_5">太田　宏介</string>
+    <string name="item_player_6">チャン　ヒョンス</string>
+    <!--MF-->
+    <string name="item_player_7">髙萩　洋次郎</string>
+    <string name="item_player_8">東　慶悟</string>
+    <string name="item_player_9">久保　建英</string>
+    <string name="item_player_10">ナ　サンホ</string>
+    <string name="item_player_11">橋本　拳人</string>
+    <string name="item_player_12">大森　晃太郎</string>
+    <string name="item_player_13">アルトゥール　シルバ</string>
+    <!--FW-->
+    <string name="item_player_14">ディエゴ　オリヴェイラ</string>
+    <string name="item_player_15">永井　謙佑</string>
+    <string name="item_player_16">田川　亨介</string>
+
+    <!--search suggestions-->
+    <string name="query_hint">検索（選手名/ クラブ名）</string>
+    <!--<string-array name="query_suggestions">-->
+    <!--<item>久保建英</item>-->
+    <!--<item>アンドレス・イニエスタ</item>-->
+    <!--<item>三田啓貴</item>-->
+    <!--<item>ルーカス・ポドルスキ</item>-->
+    <!--<item>ダビド・ビジャ</item>-->
+    <!--</string-array>-->
+
+</resources>

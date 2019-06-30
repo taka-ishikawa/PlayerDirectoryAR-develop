@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_player_detail"
+        tools:context=".PlayerDetailActivity">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/imageViewPlayerDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="349dp"
+                    android:background="@android:color/background_dark"/>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp">
+
+                <TextView
+                        android:id="@+id/textViewPlayerName"
+                        android:text="PlayerName"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/imageViewPlayerDetail"
+                        app:layout_constraintEnd_toStartOf="@+id/textViewSquadNumber"/>
+
+                <TextView
+                        android:id="@+id/textViewSquadNumber"
+                        android:text="XX"
+                        android:textSize="36sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/imageViewPlayerDetail"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                <TextView
+                        android:text="身長 [cm] ："
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:id="@+id/textViewHeight"
+                        android:text="height"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                <TextView
+                        android:text="体重 [kg] ："
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:id="@+id/textViewWeight"
+                        android:text="weight"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                <TextView
+                        android:text="ポジション ："
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:id="@+id/textViewPosition"
+                        android:text="position"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                <TextView
+                        android:id="@+id/textViewAgeKawashima"
+                        android:text="年齢 ："
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:id="@+id/textViewAge"
+                        android:text="age"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp">
+
+                <ImageView
+                        android:id="@+id/imageViewLeftFoot"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                <ImageView
+                        android:id="@+id/imageViewRightFoot"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+            android:id="@+id/progressBarPlayerDetail"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="150dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!--<TableLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp" app:layout_constraintTop_toBottomOf="@+id/imageViewPlayerDetail"-->
+    <!--android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--android:scrollbars="vertical" android:id="@+id/tableLayout2" app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent">-->
+
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<TextView-->
+    <!--android:text="XX"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/textViewSquadNumber2" app:layout_constraintEnd_toEndOf="parent"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:textSize="36sp" android:layout_marginTop="8dp"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageViewPlayerDetail"/>-->
+    <!--<TextView-->
+    <!--android:text="PlayerName"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/textViewPlayerName2"-->
+    <!--app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/imageViewPlayerDetail"-->
+    <!--android:textSize="30sp" android:textStyle="bold" android:layout_marginEnd="8dp"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/textViewSquadNumber"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<TextView-->
+    <!--android:text="　"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:textSize="24sp"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<TextView-->
+    <!--android:text="身長 [cm] ："-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:id="@+id/textView5" android:textSize="24sp"-->
+    <!--android:textAlignment="center"/>-->
+    <!--<TextView-->
+    <!--android:text="height"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:id="@+id/textViewHeight" android:textSize="24sp"-->
+    <!--android:textAlignment="center"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<TextView-->
+    <!--android:text="　"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:textSize="24sp"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent"-->
+    <!--tools:layout_editor_absoluteY="349dp">-->
+    <!--<TextView-->
+    <!--android:text="体重 [kg] ："-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:textSize="24sp" android:textAlignment="center"/>-->
+    <!--<TextView-->
+    <!--android:text="weight"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:id="@+id/textViewWeight" android:textSize="24sp"-->
+    <!--android:textAlignment="center"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent">-->
+    <!--<TextView-->
+    <!--android:text="　"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:textSize="24sp"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow android:layout_width="match_parent" android:layout_height="match_parent"-->
+    <!--tools:layout_editor_absoluteY="349dp">-->
+    <!--<ImageView-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/imageViewLeftFoot" app:srcCompat="@drawable/ic_foot_left"-->
+    <!--/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/imageViewRightFoot" app:srcCompat="@drawable/ic_foot_right"/>-->
+    <!--</TableRow>-->
+    <!--</TableLayout>-->
+</android.support.constraint.ConstraintLayout>

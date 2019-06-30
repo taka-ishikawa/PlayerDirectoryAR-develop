@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity">
+
+    <!--<android.support.design.widget.TabLayout-->
+            <!--android:id="@+id/tabLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:tabIndicatorColor="#FF0000"-->
+            <!--android:background="@android:color/background_light"-->
+            <!--android:elevation="4dp"-->
+            <!--android:layout_marginBottom="8dp">-->
+
+        <!--<android.support.design.widget.TabItem-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tab_clubs" android:id="@+id/tabClubs"/>-->
+
+        <!--<android.support.design.widget.TabItem-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/tab_table" android:id="@+id/tabTable"/>-->
+
+    <!--</android.support.design.widget.TabLayout>-->
+
+    <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottomNavigation"/>
+    <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/viewPagerHome"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@+id/tabLayout"-->
+            <!--android:layout_above="@+id/bottomNavigation"/>-->
+
+    <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            app:menu="@menu/navigation"
+            android:layout_alignParentStart="false"
+            android:layout_height="wrap_content"
+            app:itemTextColor="#ff0000"
+            app:itemIconTint="#ff0000"
+            android:layout_alignParentBottom="true"
+            app:elevation="8dp" app:labelVisibilityMode="labeled"
+            android:background="@android:color/background_light" tools:itemIconTint="#ff0000"/>
+
+</RelativeLayout>

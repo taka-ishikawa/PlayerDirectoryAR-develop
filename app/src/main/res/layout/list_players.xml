@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/imageViewPlayerList"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/ramos" android:layout_marginLeft="2dp"/>
+    <TextView
+            android:id="@+id/textViewPlayerNameList"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageViewPlayerList"
+            android:layout_marginLeft="16dp"
+            android:textSize="18sp"
+            android:text="選手名"
+            android:textStyle="bold" android:layout_toStartOf="@+id/textViewSquadNumberList"
+            android:gravity="center_vertical"/>
+    <TextView
+            android:id="@+id/textViewSquadNumberList"
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:textSize="36sp" android:gravity="center_vertical"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="false"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="8dp"/>
+
+    <!--android:layout_toStartOf="@+id/toggleButtonFav"-->
+    <TextView
+            android:id="@+id/textViewBelongingClub"
+            android:text="ClubName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:layout_toEndOf="@+id/imageViewPlayerList"
+            android:layout_below="@+id/textViewPlayerNameList"
+            android:layout_marginLeft="16dp" android:layout_marginTop="8dp"/>
+</RelativeLayout>

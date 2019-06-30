@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ArActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarAr"
+                app:title="AR"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:background="@android:color/background_dark"
+                app:navigationIcon="@drawable/ic_back_white"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_ar"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCamera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="#AAAAAA"
+            android:foregroundGravity="center"
+            android:foreground="@drawable/ic_camera_black"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_data_black"
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|start"/>
+
+</android.support.design.widget.CoordinatorLayout>
